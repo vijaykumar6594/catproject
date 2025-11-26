@@ -4,6 +4,7 @@ pipeline{
     stage("print cat"){
       steps{
         sh 'echo cat'
+        sh 'echo monkey'
       }
     }
     stage("print dog"){
