@@ -3,14 +3,14 @@ pipeline{
   stages{
     stage("print cat"){
       steps{
-        echo 'cat'
+        sh 'echo cat'
+      }
+    }
     stage("print dog"){
       steps{
-        echo 'dog'
+        sh 'echo dog'
       }
     }
   }
 }
-  }
-}
-
+    
